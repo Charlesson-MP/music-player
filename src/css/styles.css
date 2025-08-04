@@ -52,8 +52,13 @@ label:hover {
     background-color: #b164ff;
 }
 
-#nomeMusica {
-    align-self: baseline;
+#msgMusica {
+    color: red;
+    font-size: .8rem;
+}
+
+.desaparece {
+    opacity: 0;
 }
 
 hr {
@@ -62,4 +67,8 @@ hr {
 
 input {
     display: none;
+}
+
+audio {
+    width: 100%;
 }

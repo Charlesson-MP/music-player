@@ -13,12 +13,15 @@
         <section class="entrada">
             <label for="file" id="bntFile">Selecione a música</label>
             <input type="file" name="file" id="file" accept="audio/*">
-            <p id="nomeMusica">Nome:</p>
+            <p id="msgMusica" class="desaparece">Formato inválido</p>
+            <p id="nomeMusica"></p>
         </section>
         <hr>
         <section class="player">
             <audio controls></audio>
         </section>
     </main>
+
+    <script src="./src/script/script.js"></script>
 </body>
 </html>
