@@ -19,6 +19,7 @@ body {
 main {
     background-color: #ffffff6c;
     max-width: 30rem;
+    min-width: 20rem;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.336);
@@ -31,9 +32,8 @@ h1 {
 }
 
 .entrada {
-    align-self: baseline;
     width: 100%;
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,6 +55,11 @@ label:hover {
 #msgMusica {
     color: red;
     font-size: .8rem;
+    transition: opacity .5s;
+}
+
+#nomeMusica {
+    text-align: center;
 }
 
 .desaparece {
@@ -63,6 +68,7 @@ label:hover {
 
 hr {
     margin: 1rem 0;
+    border: .1rem solid #636363;
 }
 
 input {
